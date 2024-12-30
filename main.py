@@ -100,4 +100,5 @@ def valid():
     return jsonify(response), 200
 
 
+print(123)
 app.run(host='127.0.0.1', port=5000)
