@@ -98,6 +98,5 @@ def valid():
     else:
         response = {'message': 'The Blockchain is not valid.'}
     return jsonify(response), 200
-
-# comment 123
+    
 app.run(host='127.0.0.1', port=5000)
