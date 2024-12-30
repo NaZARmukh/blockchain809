@@ -101,5 +101,4 @@ def valid():
 
 
 print(123)
-print(1234)
 app.run(host='127.0.0.1', port=5000)
